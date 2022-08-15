@@ -8,6 +8,7 @@
 - [x] Add option to pass in directory of PDFs to merge.
 - [ ] Add option to pass in list of .pdf files to merge.
 - [ ] Add option to read and print metadata from PDF.
+- [ ] Expand README.md with usage tutorial and examples
 
 ## Dev
 
