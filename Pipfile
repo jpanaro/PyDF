@@ -5,6 +5,8 @@ name = "pypi"
 
 [packages]
 pypdf2 = "*"
+argparse = "*"
+pylint = "*"
 
 [dev-packages]
 
