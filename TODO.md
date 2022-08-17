@@ -1,7 +1,5 @@
 # TODO
 
-## Core
-
 - [x] Add argparser to allow user to exercise chosen functionality.
 - [x] Add option to send result PDF to certain directory.
 - [x] Add option to name resultant PDF.
