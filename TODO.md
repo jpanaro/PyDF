@@ -7,9 +7,4 @@
 - [x] Add option to name resultant PDF.
 - [x] Add option to pass in directory of PDFs to merge.
 - [x] Add option to pass in list of .pdf files to merge.
-- [ ] Add option to read and print metadata from PDF.
-- [ ] Expand README.md with usage tutorial and examples
-
-## Dev
-
-- [ ] Add error checking for os and open operations
+- [x] Expand README.md with usage tutorial and examples

@@ -10,10 +10,11 @@ def pdf_handler():
     group = parser.add_mutually_exclusive_group()
     group.add_argument('-d', '--directory', metavar="PATH", type=str, help=" \
     Path to a directory in which all PDFs will be sequentially merged")
-    group.add_argument('-f', '--files', metavar="FILES", type=str, nargs='+',
+    group.add_argument('-f', '--files', metavar="PATH", type=str, nargs='+',
     help="Paths to two or more PDFs to merge.")
     parser.add_argument('-o', '--output', metavar="PATH", type=str,
-    default="output.pdf", help="Path to resultant file")
+    default="output.pdf", help="Path to resultant file. Default will be \
+     \"output.pdf\" in your current directory. ")
 
     args = parser.parse_args()
 
